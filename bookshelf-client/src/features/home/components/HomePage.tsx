@@ -1,5 +1,3 @@
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import bookshelfService from "../../../utils/api/books";
 import { LoginState } from '../../../store/slices/loginSlice';
 import '../styles/homeStyles.css';
@@ -26,20 +24,20 @@ const HomePage = () => {
             {loading && <Loading />}
             {topBooks && lastUpdates &&
             <div id="home-page">
-                <Row className="home-container">
-                    <Col xs={1}></Col>
-                    <Col className="d-flex justify-content-center">                 
+                <div className="home-container">
+                    <div className='empty-col'></div>
+                    <div className="left-col">                 
                         <RecentBooks books={lastUpdates} />
                         {updatesError && 'No data'}
-                    </Col>
+                    </div>
                     
-                    <Col xs={4} className="justify-content-center">
+                    <div className="right-col">
                         {isLoggedIn && <><MyStats /><News /></>}
                         <TopBooks books={topBooks} />
                         {topBooksError && 'No data'}
-                    </Col>
-                    <Col xs={1} className='right-side'></Col>
-                </Row>
+                    </div>
+                    <div className='empty-col'></div>
+                </div>
             </div>
                             
                 }
