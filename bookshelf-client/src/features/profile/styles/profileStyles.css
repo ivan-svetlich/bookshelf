@@ -1,0 +1,64 @@
+.profile-header{
+    display: inline;
+    flex-direction: column;
+}
+
+.profile-page{
+    margin: 0 2em 0 2em;
+}
+
+.profile-info{
+    border-right: 1px solid rgb(236, 236, 236);
+}
+
+.right-col{
+    min-width: 75%;
+}
+
+.chart-container {
+    min-height: 40vh;
+    max-height: 98vh;
+}
+
+.profile-picture{
+    max-width: 225px;
+}
+
+.profile-settings{
+    text-align: right;
+}
+
+.profile-button{
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.content-is-center{
+    text-align: center;
+}
+
+.content-is-left{
+    text-align: left;
+}
+
+.content-is-right{
+    text-align: right;
+}
+
+.chart-title{
+    text-align: left;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.pending-button{
+    pointer-events: auto;
+}
+
+.text-is-green{
+    color: rgb(86, 219, 58);
+    font-weight: bold;
+}
+.text-is-grey{
+    color: grey;
+    font-weight: bold;
+}

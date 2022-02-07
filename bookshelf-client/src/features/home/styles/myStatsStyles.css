@@ -1,0 +1,66 @@
+#my-stats{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    text-align: left;
+    margin: 0 1em 1em 1em;
+    padding: 0 1em 1em 1em;
+    font-size: 14px;
+}
+#my-stats .total-row{
+    font-weight: bold;
+    font-size: 16px;
+}
+#my-stats .total-row:hover,
+#my-stats .total-row:focus{
+    background-color: rgb(238, 238, 238);
+}
+
+#my-stats .reading-row:hover,
+#my-stats .reading-row:focus{
+    background-color: rgba(75, 192, 192, 0.2);
+}
+#my-stats .completed-row:hover,
+#my-stats .completed-row:focus{
+    background-color: rgba(54, 162, 235, 0.2);
+}
+#my-stats .on-hold-row:hover,
+#my-stats .on-hold-row:focus{
+    background-color: rgba(255, 206, 86, 0.2);
+}
+#my-stats .dropped-row:hover,
+#my-stats .dropped-row:focus{
+    background-color: rgba(255, 99, 132, 0.2);
+}
+#my-stats .plan-to-read-row:hover,
+#my-stats .plan-to-read-row:focus{
+    background-color: rgba(153, 102, 255, 0.2);
+}
+
+#my-stats:hover  .slide-in::after,
+#my-stats:focus  .slide-in::after{
+    transform: translateX(0%);
+} 
+
+#my-stats-title:hover ~ #my-stats-table .total-row,
+#my-stats-title:focus ~ #my-stats-table .total-row{
+    background-color: rgba(238, 238, 238, 0.5);
+} 
+#my-stats-title:hover ~ #my-stats-table .reading-row,
+#my-stats-title:focus ~ #my-stats-table .reading-row{
+    background-color: rgba(75, 192, 192, 0.07);
+} 
+#my-stats-title:hover ~ #my-stats-table .completed-row,
+#my-stats-title:focus ~ #my-stats-table .completed-row{
+    background-color: rgba(54, 162, 235, 0.07);
+} 
+#my-stats-title:hover ~ #my-stats-table .on-hold-row,
+#my-stats-title:focus ~ #my-stats-table .on-hold-row{
+    background-color: rgba(255, 206, 86, 0.07);
+} 
+#my-stats-title:hover ~ #my-stats-table .dropped-row,
+#my-stats-title:focus ~ #my-stats-table .dropped-row{
+    background-color: rgba(255, 99, 132, 0.07);
+} 
+#my-stats-title:hover ~ #my-stats-table .plan-to-read-row,
+#my-stats-title:focus ~ #my-stats-table .plan-to-read-row{
+    background-color: rgba(153, 102, 255, 0.07);
+} 

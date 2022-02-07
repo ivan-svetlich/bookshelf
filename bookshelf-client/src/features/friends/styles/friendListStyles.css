@@ -1,0 +1,50 @@
+/* Component: friends page */
+#friends-page{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;    
+}
+
+/* Component: friend card */
+.friend-card{
+    width: 60%;
+    align-items: flex-start;
+
+}
+    .friend-image{
+        padding-top: 0.5em;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: inherit;
+        align-items: flex-start;
+    }
+        .friend-picture{
+            max-width: 90px;
+        }
+    .friend-info{
+        padding-top: 0.5em;
+        text-align: left;
+        width: auto;
+        min-height: 100%;
+        flex: 1;
+        padding-left: 0.5em;
+    }
+
+        .line-clamp-1{
+            overflow: hidden;
+            display:-webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+        }
+
+        .remove-link{
+            position: absolute;
+            bottom: 0px;
+            right: 0;
+            
+        }

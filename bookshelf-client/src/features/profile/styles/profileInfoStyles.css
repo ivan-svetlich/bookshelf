@@ -1,0 +1,19 @@
+.settings-info-page{
+    width: 100%;
+}
+
+.form-container{
+    margin: 2em 0 2em 0;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    max-width: 100%;
+    border: 2px solid rgb(206, 206, 206);
+    background-color: rgba(240, 240, 240, 0.644);
+    padding: 2.5em;
+}
+
+.save-button{
+    margin-top: 2em;
+}

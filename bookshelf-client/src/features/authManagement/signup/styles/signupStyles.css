@@ -1,0 +1,32 @@
+#signup-page{
+    width: 100%;
+}
+
+#signup-form-container{
+    margin: 2em 0 2em 0;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    max-width: 450px;
+    border: 2px solid rgb(206, 206, 206);
+    background-color: rgba(240, 240, 240, 0.644);
+    padding: 2.5em;
+}
+
+.captcha-container{
+    display:inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#signup-button{
+    margin: 1em 0 1em 0;
+    width: 100%;
+}
+
+.invalid{
+    outline: none !important; 
+    border-color: red !important; 
+    box-shadow: 0 0 10px red !important; 
+}

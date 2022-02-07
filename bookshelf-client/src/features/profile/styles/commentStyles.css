@@ -1,0 +1,42 @@
+#comments-container{
+    margin: 2em 0 2em 0 ;
+}
+
+#comments-container h4{
+    border-bottom: 1px solid rgb(236, 236, 236);
+    text-align: left;
+}
+#comments-container .submit-comment{
+    text-align: left;
+}
+
+.comments-table{
+    margin-top: 1em;
+}
+
+.comment-box{
+    text-align: left;
+}
+
+.comment-box .picture-col{
+    width: 10%;
+}
+
+.comment-box .body-col{
+    width: 70%;
+    vertical-align: top;
+}
+
+.comment-box .date-col{
+    vertical-align: top;
+    text-align: right;
+}
+
+.comment-box .text-is-centered{
+    text-align: center;
+}
+
+.no-border{
+    border: none;
+}
+

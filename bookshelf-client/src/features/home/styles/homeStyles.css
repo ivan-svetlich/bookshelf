@@ -1,0 +1,82 @@
+#home-page{
+    margin: 0px !important;
+    padding: 1em 0px 5em 0px !important;
+}
+
+#home-page .home-container{
+    width: 100%;
+}
+
+#home-page .top-books .recent-books{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.updates-title{
+    max-height: fit-content;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+.updates-col{
+    border-right: 1px dotted rgb(223, 223, 223);
+}
+
+col{
+    padding:0px;
+}
+
+#home-page .animated-underline {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+    width: 100%;
+}
+
+/* Fade in*/
+#home-page .animated-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    
+    /* background-color: rgb(223, 223, 223); */
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+/* Slide in */
+#home-page .slide-in {
+    overflow: hidden;
+}
+  
+#home-page .slide-in::after {
+    opacity: 1;
+    transform: translateX(-100%);
+    background: linear-gradient(to right, #6cb8ea, #29d0be, #e1f549, #ff5959); 
+}
+  
+#home-page .slide-in:hover::after,
+#home-page .slide-in:focus::after{
+    transform: translateX(0%)
+}
+
+/* Scale from center */
+#home-page .from-center::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+    background: linear-gradient(to right, #e1f549, #29d0be, #6cb8ea, #ff5959);
+  }
+  
+  #home-page .from-center:hover::after,
+  #home-page .from-center:focus::after{
+    transform: scale(1);
+  }

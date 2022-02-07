@@ -1,0 +1,60 @@
+#list-page{
+    margin: 0px !important;
+    padding: 1em 0px 5em 0px !important;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#list-page .row{
+    width: 96%;
+    align-items: center;
+    justify-content: center;
+}
+.book-list {
+    counter-reset: rowNumber;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.title-col, .authors-col, .publisher-col{
+    text-align: left;
+}
+
+.book-list tbody tr::before {
+    display: table-cell;
+    counter-increment: rowNumber;
+    content: counter(rowNumber) ".";
+    padding-right: 0.3em;
+    text-align: right;
+}  
+
+#download-btn-container{
+    width: 100%;
+    text-align: right;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#file-type-div{
+    display: inline;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 1em;
+}
+
+#file-type-select{
+    width: auto;
+    margin-left: 5px;
+}
+
+#file-type-icon{
+    margin-left: 0.5em;
+}

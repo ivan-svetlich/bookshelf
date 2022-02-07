@@ -1,0 +1,33 @@
+#purchased-books-page{
+    margin: 0px !important;
+    padding: 1em 0px 5em 0px !important;
+}
+
+.purchased-books-description{
+    align-self:center;
+    font-size: 16px;
+}
+
+#purchased-books-page .row{
+    width: 96%;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchased-books-list {
+    counter-reset: rowNumber;
+    margin-top: 1em;
+    width: 100%;
+  }
+
+.title-col, .authors-col, .publisher-col, .price-col{
+    text-align: left;
+}
+
+.purchased-books-list tbody tr::before {
+    display: table-cell;
+    counter-increment: rowNumber;
+    content: counter(rowNumber) ".";
+    padding-right: 0.3em;
+    text-align: right;
+}  

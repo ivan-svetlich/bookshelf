@@ -1,0 +1,132 @@
+#brand-title{
+    margin-right: 2em;
+}
+
+#brand-title .icon-container{
+    height: 21px;
+    width: 22.5px;
+    margin-right: 0.2em;
+    text-align: right;
+}
+
+#brand-title:hover .fa-book,
+#brand-title .fa-book-open {
+    display: none;
+}
+#brand-title:hover .fa-book-open {
+    display: inline;
+}
+
+.icon-container {
+    display: block;
+    position: relative;
+    padding: 0.2em 0.2em 0 0;
+}
+
+.navbar .animated-underline {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+}
+
+/* Fade in*/
+.navbar .animated-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: rgb(199, 200, 201);
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+/* Slide in */
+.navbar .animated-underline {
+    overflow: hidden;
+}
+  
+.navbar .animated-underline::after {
+    opacity: 1;
+    transform: translate3d(-100%, 0, 0);
+}
+  
+.navbar .animated-underline:hover::after,
+.navbar .animated-underline:focus::after{
+    transform: translate3d(0, 0, 0);
+}
+
+.sub-header{
+    margin-top: 1em;
+}
+
+.child-container{
+    margin: 0 2em 0 2em;
+}
+
+.header-item{
+    margin: 0em 1em 0em 1em;
+    padding: 0em 1em 0em 1em;
+}
+
+.header-link{
+    margin-right: 2em;
+    display: inline-flex;
+}
+
+.border-right{
+    border-right: 1px dotted rgb(248, 249, 250);
+}
+
+.notif .dropdown-menu{
+    width:max-content;
+}
+
+.notif{
+    border-right: 1px dotted rgb(248, 249, 250);
+    border-left: 1px dotted rgb(248, 249, 250);
+}
+
+.notif .notif-number{
+    color: rgb(255, 113, 113);
+    font-size: 12px;
+}
+
+.notif .dropdown-heading{
+    display: inline-flexbox
+}
+.notif .read-btn{
+    float: right;
+    text-align: end;
+    
+}
+
+.notif button{
+    text-decoration: none !important;
+}
+
+.notif .btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.notif .dropdown-toggle:before {
+    display: none !important; 
+}
+.notif .dropdown-toggle:after {
+    display: none !important; 
+}
+
+.notif .notif-item{
+    font-size: 14px;
+}
+
+.loading-container{
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-item:active{
+    background-color: rgb(63, 63, 63);
+}

@@ -1,0 +1,83 @@
+#recent-updates{
+    width: 100%;
+}
+
+#recent-books{
+    width:100%;
+}
+
+#recent-books .item-card{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 0.5em;
+}
+
+#recent-books .item-card:hover,
+#recent-books .item-card:focus{
+    background-color: rgb(245, 249, 253);
+    border: 1px solid rgba(10, 98, 211, 0.5);
+}
+
+#recent-books .item-image{
+    margin-top: 0.2em;
+    flex: 0 1 131.5px;
+    background-color: inherit;
+}
+
+#recent-books .item-info{
+    flex: 1 1;
+    padding-top: 1em;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    height: inherit;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#recent-books .line-clamp-1{
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+#recent-books .date-user{
+    display: flex;
+    flex: 1 1 auto;
+    width: auto;
+    justify-content:flex-end;
+    align-items: flex-end;
+    margin-right: 1em;
+}
+
+#recent-updates:hover  .from-center::after,
+#recent-updates:focus  .from-center::after{
+    transform: scale(1);
+} 
+
+#recent-updates #updates-title:hover ~ #recent-books>.item-card,
+#recent-updates #updates-title:focus ~ #recent-books>.item-card{
+    background: linear-gradient(130deg, #ffffff, #e3ebf8);
+    background-size: 200% 200%;
+    -webkit-animation: Animation 3s ease infinite;
+    -moz-animation: Animation 3s ease infinite;
+    animation: Animation 3s ease infinite;
+} 
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+

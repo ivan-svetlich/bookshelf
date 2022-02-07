@@ -1,0 +1,86 @@
+#top-books{
+    width:100%;
+}
+
+#top-books .item-image{
+    margin-top: 0.2em;
+    flex: 0 1 60px;
+    background-color: inherit;
+}
+#top-books .item-card{
+    margin-bottom: 0.5em;
+}
+#top-books .item-card:hover,
+#top-books .item-card:focus{
+    background-color: rgb(245, 249, 253);
+    border: 1px solid rgba(10, 98, 211, 0.5);
+}
+
+#top-books .item-info{
+    flex: 1 1;
+    padding-top: 0.5em;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    height: inherit;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#top-books .line-clamp-1{
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.ranking{
+    background-color: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 8px 0 0 8px;
+    width: 2em;
+}
+
+#top-books .first-place{
+    color: rgb(214, 175, 54);
+    
+}
+
+#top-books .second-place{
+    color: rgb(167, 167, 173);
+}
+
+#top-books .third-place{
+    color: rgb(167, 112, 68);
+}
+
+#top-books:hover  .from-center::after,
+#top-books:focus  .from-center::after{
+    transform: scale(1);
+} 
+
+#top-books #top-books-title:hover ~ #top-books-cards>.item-card,
+#top-books #top-books-title:focus ~ #top-books-cards>.item-card{
+    background: linear-gradient(130deg, #ffffff, #e3ebf8);
+    background-size: 200% 200%;
+    -webkit-animation: Animation 3s ease infinite;
+    -moz-animation: Animation 3s ease infinite;
+    animation: Animation 3s ease infinite;
+} 
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}

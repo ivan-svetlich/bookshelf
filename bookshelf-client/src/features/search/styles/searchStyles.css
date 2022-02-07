@@ -1,0 +1,141 @@
+/* Search page */
+#search-page{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+    /*Compent: search bar */
+    #search-bar{
+        display: table;
+        margin-bottom: 2em;
+        width: 100%;
+        vertical-align: top;
+    }
+        #search-span{
+            vertical-align: top; 
+        }
+
+        #input-container{
+            display: inline-block;
+            flex-direction: column;
+        }
+
+            #search-input{
+                border: none;
+                background: none;
+                outline: none;
+                color: black;
+                margin: 0 0.5em 0 0;
+                width: 255px;
+            }
+
+            #progress-bar{
+                width: 255px;
+                height: 2px;
+            }
+        #search-dropdown{
+            display: inline-block;
+            vertical-align: top;
+        }
+    #search-products{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /* Component: item card */
+    #search-page #item-cards{
+        width:80%;
+    }
+        #search-page .card-border{
+            position: relative;
+            padding: 1px;    
+            margin-bottom: 0.5em;
+            border: none;
+        }
+        #search-page .item-card{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        #search-page .item-card:hover,
+        #search-page .item-card:focus{
+            background-color: rgb(245, 249, 253);
+        }
+        #search-page .card-border:hover,
+        #search-page .card-border:focus{
+            background: linear-gradient(130deg, #ffffff, #cbdefa, #a5c9ff, #93beff, #0d6efd,#93beff, #a5c9ff, #cbdefa , #ffffff);
+            background-size: 150% 150%;
+            -webkit-animation: Animation 2s linear infinite;
+            -moz-animation: Animation 2s linear infinite;
+            animation: Animation 2s linear infinite;
+        }
+        
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+        #search-page .item-image{
+            margin-top: 0.2em;
+            flex: 0 1 131.5px;
+            background-color: inherit;
+        }
+        #search-page .item-info{
+            flex: 1 1;
+            padding-top: 0.5em;
+            text-align: left;
+            display: flex;
+            flex-flow: column;
+            height: inherit;
+            margin: 0 1em 0 0.5em;
+        }
+
+            .line-clamp-1{
+                overflow: hidden;
+                display:-webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+            }
+
+            #search-page #card-links {
+                display: inline-block;
+                justify-content: left;
+                align-items: center;
+                list-style: none; 
+                padding: 0;
+            }
+                #search-page #card-links a {
+                    margin: 0px 10px 0px 0px;
+                    word-wrap: normal;
+                    display: inline-block;
+                    text-decoration: none;
+                }
+                #search-page li{
+                    display: inline-block;
+                    vertical-align: text-top;
+                }
+                #search-page li button {
+                    padding:0 !important;
+                    vertical-align: top;
+                    text-decoration: none;
+                }
+    /* Component: paginator */
+    #search-page .paginator-btn{
+        margin: 2em 0.25em 0.5em 0.25em;
+        width: 82px;
+    }

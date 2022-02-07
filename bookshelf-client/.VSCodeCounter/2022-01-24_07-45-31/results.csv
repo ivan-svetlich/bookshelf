@@ -1,0 +1,145 @@
+"filename", "language", "JSON with Comments", "CSS", "TypeScript React", "TypeScript", "JavaScript", "Markdown", "JSON", "HTML", "comment", "blank", "total"
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\README.md", "Markdown", 0, 0, 0, 0, 0, 26, 0, 0, 0, 21, 47
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\lib\signalr\dist\browser\signalr.js", "JavaScript", 0, 0, 0, 0, 3412, 0, 0, 0, 967, 332, 4711
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\libman.json", "JSON", 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 13
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\package-lock.json", "JSON", 0, 0, 0, 0, 0, 0, 16817, 0, 0, 1, 16818
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\package.json", "JSON", 0, 0, 0, 0, 0, 0, 74, 0, 0, 1, 75
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\public\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 26, 23, 1, 50
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\public\manifest.json", "JSON", 0, 0, 0, 0, 0, 0, 25, 0, 0, 1, 26
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\App.css", "CSS", 0, 9, 0, 0, 0, 0, 0, 0, 0, 1, 10
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\App.test.tsx", "TypeScript React", 0, 0, 7, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\App.tsx", "TypeScript React", 0, 0, 33, 0, 0, 0, 0, 0, 14, 8, 55
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\SignupPage\ReCaptcha.tsx", "TypeScript React", 0, 0, 18, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\SignupPage\SignupForm.tsx", "TypeScript React", 0, 0, 45, 0, 0, 0, 0, 0, 0, 8, 53
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\SignupPage\SignupPage.tsx", "TypeScript React", 0, 0, 56, 0, 0, 0, 0, 0, 0, 13, 69
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\SignupPage\emailConfimation\EmailConfirmationPage.tsx", "TypeScript React", 0, 0, 22, 0, 0, 0, 0, 0, 0, 3, 25
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\SignupPage\signupStyles.css", "CSS", 0, 21, 0, 0, 0, 0, 0, 0, 0, 3, 24
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\chatPage\AlertModal.tsx", "TypeScript React", 0, 0, 36, 0, 0, 0, 0, 0, 0, 6, 42
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\chatPage\ChatInput.tsx", "TypeScript React", 0, 0, 46, 0, 0, 0, 0, 0, 0, 7, 53
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\chatPage\ChatPage.tsx", "TypeScript React", 0, 0, 155, 0, 0, 0, 0, 0, 0, 13, 168
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\chatPage\ChatWindow.tsx", "TypeScript React", 0, 0, 99, 0, 0, 0, 0, 0, 0, 10, 109
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\chatPage\ConnectedFriends.tsx", "TypeScript React", 0, 0, 40, 0, 0, 0, 0, 0, 0, 3, 43
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\chatPage\Message.tsx", "TypeScript React", 0, 0, 12, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\chatPage\chatPageStyles.css", "CSS", 0, 189, 0, 0, 0, 0, 0, 0, 2, 40, 231
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\footer\Footer.tsx", "TypeScript React", 0, 0, 10, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\footer\footerStyles.css", "CSS", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 10
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\FriendsNav.tsx", "TypeScript React", 0, 0, 17, 0, 0, 0, 0, 0, 0, 2, 19
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\FriendsPage.tsx", "TypeScript React", 0, 0, 8, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\addFriend\AddFriend.tsx", "TypeScript React", 0, 0, 53, 0, 0, 0, 0, 0, 0, 5, 58
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\addFriend\SendRequest.tsx", "TypeScript React", 0, 0, 39, 0, 0, 0, 0, 0, 0, 5, 44
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\addFriend\UserCard.tsx", "TypeScript React", 0, 0, 38, 0, 0, 0, 0, 0, 0, 5, 43
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\addFriend\addFriendStyles.css", "CSS", 0, 41, 0, 0, 0, 0, 0, 0, 2, 3, 46
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\friendList\FriendCard.tsx", "TypeScript React", 0, 0, 34, 0, 0, 0, 0, 0, 0, 5, 39
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\friendList\FriendList.tsx", "TypeScript React", 0, 0, 29, 0, 0, 0, 0, 0, 0, 5, 34
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\friendList\RemoveFriend.tsx", "TypeScript React", 0, 0, 40, 0, 0, 0, 0, 0, 0, 5, 45
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\friendList\friendListStyles.css", "CSS", 0, 43, 0, 0, 0, 0, 0, 0, 2, 5, 50
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\pendingRequests\PendingRequests.tsx", "TypeScript React", 0, 0, 29, 0, 0, 0, 0, 0, 0, 6, 35
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\pendingRequests\RequestCard.tsx", "TypeScript React", 0, 0, 51, 0, 0, 0, 0, 0, 0, 7, 58
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\pendingRequests\RequestResponse.tsx", "TypeScript React", 0, 0, 46, 0, 0, 0, 0, 0, 0, 5, 51
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\friendsPage\pendingRequests\pendingRequestsStyles.css", "CSS", 0, 55, 0, 0, 0, 0, 0, 0, 4, 8, 67
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\header\ChatButton.tsx", "TypeScript React", 0, 0, 7, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\header\Header.tsx", "TypeScript React", 0, 0, 48, 0, 0, 0, 0, 0, 0, 5, 53
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\header\HeaderDropdown.tsx", "TypeScript React", 0, 0, 23, 0, 0, 0, 0, 0, 0, 4, 27
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\header\Notifications.tsx", "TypeScript React", 0, 0, 50, 0, 0, 0, 0, 0, 0, 4, 54
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\header\SubHeader.tsx", "TypeScript React", 0, 0, 30, 0, 0, 0, 0, 0, 0, 2, 32
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\header\headerStyles.css", "CSS", 0, 53, 0, 0, 0, 0, 0, 0, 0, 14, 67
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\HomePage.tsx", "TypeScript React", 0, 0, 52, 0, 0, 0, 0, 0, 10, 9, 71
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\homeStyles.css", "CSS", 0, 24, 0, 0, 0, 0, 0, 0, 0, 5, 29
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\hooks\useFetchBooks.tsx", "TypeScript React", 0, 0, 42, 0, 0, 0, 0, 0, 0, 12, 54
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\hooks\useFetchNotifications.tsx", "TypeScript React", 0, 0, 47, 0, 0, 0, 0, 0, 0, 12, 59
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\news\News.tsx", "TypeScript React", 0, 0, 103, 0, 0, 0, 0, 0, 0, 6, 109
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\news\newsStyles.css", "CSS", 0, 21, 0, 0, 0, 0, 0, 0, 0, 2, 23
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\recentBooks\RecentBookCard.tsx", "TypeScript React", 0, 0, 66, 0, 0, 0, 0, 0, 0, 8, 74
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\recentBooks\RecentBooks.tsx", "TypeScript React", 0, 0, 17, 0, 0, 0, 0, 0, 0, 3, 20
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\recentBooks\recentBooksStyles.css", "CSS", 0, 30, 0, 0, 0, 0, 0, 0, 0, 8, 38
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\topBooks\TopBookCard.tsx", "TypeScript React", 0, 0, 24, 0, 0, 0, 0, 0, 8, 4, 36
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\topBooks\TopBooks.tsx", "TypeScript React", 0, 0, 16, 0, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\homePage\topBooks\topBooksStyles.css", "CSS", 0, 17, 0, 0, 0, 0, 0, 0, 0, 3, 20
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\hooks\reduxHooks.tsx", "TypeScript React", 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\hooks\useConfirmEmail.tsx", "TypeScript React", 0, 0, 32, 0, 0, 0, 0, 0, 0, 9, 41
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\hooks\useFetch.tsx", "TypeScript React", 0, 0, 23, 0, 0, 0, 0, 0, 0, 3, 26
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\hooks\useFetchById.tsx", "TypeScript React", 0, 0, 18, 0, 0, 0, 0, 0, 1, 4, 23
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\hooks\useFetchUsers.tsx", "TypeScript React", 0, 0, 21, 0, 0, 0, 0, 0, 0, 2, 23
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\hooks\useQuery.tsx", "TypeScript React", 0, 0, 6, 0, 0, 0, 0, 0, 0, 2, 8
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\itemPage\AddProduct.tsx", "TypeScript React", 0, 0, 126, 0, 0, 0, 0, 0, 0, 13, 139
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\itemPage\BuyItemButton.tsx", "TypeScript React", 0, 0, 13, 0, 0, 0, 0, 0, 0, 5, 18
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\itemPage\ItemPage.tsx", "TypeScript React", 0, 0, 141, 0, 0, 0, 0, 0, 0, 16, 157
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\itemPage\hooks\useAddProduct.tsx", "TypeScript React", 0, 0, 52, 0, 0, 0, 0, 0, 0, 9, 61
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\itemPage\hooks\useMercadoPago.tsx", "TypeScript React", 0, 0, 39, 0, 0, 0, 0, 0, 1, 10, 50
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\itemPage\itemStyles.css", "CSS", 0, 82, 0, 0, 0, 0, 0, 0, 0, 11, 93
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\listPage\DownloadModal.tsx", "TypeScript React", 0, 0, 41, 0, 0, 0, 0, 0, 0, 3, 44
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\listPage\ListPage.tsx", "TypeScript React", 0, 0, 127, 0, 0, 0, 0, 0, 17, 10, 154
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\listPage\hooks\useDownload.tsx", "TypeScript React", 0, 0, 42, 0, 0, 0, 0, 0, 3, 7, 52
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\listPage\listStyles.css", "CSS", 0, 47, 0, 0, 0, 0, 0, 0, 0, 7, 54
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\loading\Loading.tsx", "TypeScript React", 0, 0, 9, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\loginPage\LoginForm.tsx", "TypeScript React", 0, 0, 40, 0, 0, 0, 0, 0, 0, 5, 45
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\loginPage\LoginPage.tsx", "TypeScript React", 0, 0, 61, 0, 0, 0, 0, 0, 0, 11, 72
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\loginPage\loginStyles.css", "CSS", 0, 21, 0, 0, 0, 0, 0, 0, 0, 4, 25
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\main\Main.tsx", "TypeScript React", 0, 0, 140, 0, 0, 0, 0, 0, 0, 7, 147
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\main\MessageToast.tsx", "TypeScript React", 0, 0, 29, 0, 0, 0, 0, 0, 0, 3, 32
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\main\mainStyles.css", "CSS", 0, 13, 0, 0, 0, 0, 0, 0, 0, 2, 15
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\privateRoute\PrivateRoute.tsx", "TypeScript React", 0, 0, 11, 0, 0, 0, 0, 0, 0, 6, 17
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\ProfilePage.tsx", "TypeScript React", 0, 0, 140, 0, 0, 0, 0, 0, 1, 8, 149
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\ProfilePicture.tsx", "TypeScript React", 0, 0, 23, 0, 0, 0, 0, 0, 0, 3, 26
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\Statistics.tsx", "TypeScript React", 0, 0, 126, 0, 0, 0, 0, 0, 0, 12, 138
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\comments\CommentBox.tsx", "TypeScript React", 0, 0, 29, 0, 0, 0, 0, 0, 0, 5, 34
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\comments\Comments.tsx", "TypeScript React", 0, 0, 72, 0, 0, 0, 0, 0, 0, 4, 76
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\comments\commentStyles.css", "CSS", 0, 30, 0, 0, 0, 0, 0, 0, 0, 9, 39
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\comments\hooks\useFetchComments.tsx", "TypeScript React", 0, 0, 48, 0, 0, 0, 0, 0, 0, 10, 58
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\profileSettings\SettingsNav.tsx", "TypeScript React", 0, 0, 14, 0, 0, 0, 0, 0, 0, 4, 18
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\profileSettings\profileInfo\ProfileInfoPage.tsx", "TypeScript React", 0, 0, 72, 0, 0, 0, 0, 0, 0, 12, 84
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\profileSettings\profileInfo\profileInfoStyles.css", "CSS", 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 19
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\profileSettings\profilePicture\ErrorAlert.tsx", "TypeScript React", 0, 0, 19, 0, 0, 0, 0, 0, 0, 6, 25
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\profileSettings\profilePicture\ProfilePicturePage.tsx", "TypeScript React", 0, 0, 100, 0, 0, 0, 0, 0, 0, 12, 112
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\profileSettings\profilePicture\profilePictureStyles.css", "CSS", 0, 38, 0, 0, 0, 0, 0, 0, 0, 6, 44
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\profilePage\profileStyles.css", "CSS", 0, 44, 0, 0, 0, 0, 0, 0, 0, 11, 55
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\purchasedBooksPage\PurchasedBooksPage.tsx", "TypeScript React", 0, 0, 60, 0, 0, 0, 0, 0, 3, 6, 69
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\purchasedBooksPage\purchasedBooksStyles.css", "CSS", 0, 52, 0, 0, 0, 0, 0, 0, 0, 9, 61
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\searchPage\ItemCard.tsx", "TypeScript React", 0, 0, 53, 0, 0, 0, 0, 0, 0, 6, 59
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\searchPage\Paginator.tsx", "TypeScript React", 0, 0, 37, 0, 0, 0, 0, 0, 0, 5, 42
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\searchPage\SearchBar.tsx", "TypeScript React", 0, 0, 39, 0, 0, 0, 0, 0, 0, 5, 44
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\searchPage\SearchPage.tsx", "TypeScript React", 0, 0, 44, 0, 0, 0, 0, 0, 7, 7, 58
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\searchPage\hooks\useSearch.tsx", "TypeScript React", 0, 0, 70, 0, 0, 0, 0, 0, 1, 12, 83
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\searchPage\searchStyles.css", "CSS", 0, 64, 0, 0, 0, 0, 0, 0, 4, 7, 75
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\components\updateBook\UpdateBook.tsx", "TypeScript React", 0, 0, 131, 0, 0, 0, 0, 0, 0, 9, 140
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\cookies\cookies.ts", "TypeScript", 0, 0, 0, 32, 0, 0, 0, 0, 0, 2, 34
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\book.ts", "TypeScript", 0, 0, 0, 11, 0, 0, 0, 0, 0, 1, 12
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\bookEntry.ts", "TypeScript", 0, 0, 0, 35, 0, 0, 0, 0, 0, 3, 38
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\chatMessage.ts", "TypeScript", 0, 0, 0, 21, 0, 0, 0, 0, 0, 2, 23
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\comment.ts", "TypeScript", 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 8
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\friend.ts", "TypeScript", 0, 0, 0, 26, 0, 0, 0, 0, 0, 3, 29
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\notification.ts", "TypeScript", 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 7
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\product.ts", "TypeScript", 0, 0, 0, 19, 0, 0, 0, 0, 0, 2, 21
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\user.ts", "TypeScript", 0, 0, 0, 37, 0, 0, 0, 0, 0, 3, 40
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\entities\userProfile.ts", "TypeScript", 0, 0, 0, 38, 0, 0, 0, 0, 0, 3, 41
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\index.css", "CSS", 0, 15, 0, 0, 0, 0, 0, 0, 0, 3, 18
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\index.tsx", "TypeScript React", 0, 0, 12, 0, 0, 0, 0, 0, 3, 3, 18
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\mappers\bookMapper.ts", "TypeScript", 0, 0, 0, 35, 0, 0, 0, 0, 0, 11, 46
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\mappers\logginResponseMapper.ts", "TypeScript", 0, 0, 0, 27, 0, 0, 0, 0, 0, 4, 31
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\mappers\profileResponseMapper.ts", "TypeScript", 0, 0, 0, 26, 0, 0, 0, 0, 0, 5, 31
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\react-app-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\reportWebVitals.ts", "TypeScript", 0, 0, 0, 13, 0, 0, 0, 0, 0, 3, 16
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\rootReducer.ts", "TypeScript", 0, 0, 0, 34, 0, 0, 0, 0, 0, 7, 41
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\authService.ts", "TypeScript", 0, 0, 0, 44, 0, 0, 0, 0, 3, 12, 59
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\bookshelfService.ts", "TypeScript", 0, 0, 0, 51, 0, 0, 0, 0, 0, 16, 67
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\chatService.ts", "TypeScript", 0, 0, 0, 33, 0, 0, 0, 0, 0, 8, 41
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\commentService.ts", "TypeScript", 0, 0, 0, 13, 0, 0, 0, 0, 0, 3, 16
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\friendsService.ts", "TypeScript", 0, 0, 0, 29, 0, 0, 0, 0, 0, 9, 38
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\googleBooksService.ts", "TypeScript", 0, 0, 0, 19, 0, 0, 0, 0, 1, 4, 24
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\notificationService.ts", "TypeScript", 0, 0, 0, 13, 0, 0, 0, 0, 0, 4, 17
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\productsService.ts", "TypeScript", 0, 0, 0, 36, 0, 0, 0, 0, 0, 8, 44
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\services\userProfileService.ts", "TypeScript", 0, 0, 0, 23, 0, 0, 0, 0, 0, 6, 29
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\setupTests.ts", "TypeScript", 0, 0, 0, 1, 0, 0, 0, 0, 4, 1, 6
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\bookListSlice.ts", "TypeScript", 0, 0, 0, 143, 0, 0, 0, 0, 0, 20, 163
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\bookshelfUpdatesSlice.ts", "TypeScript", 0, 0, 0, 82, 0, 0, 0, 0, 0, 8, 90
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\emailConfimationSlice.ts", "TypeScript", 0, 0, 0, 55, 0, 0, 0, 0, 0, 9, 64
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\friendsSlice.ts", "TypeScript", 0, 0, 0, 150, 0, 0, 0, 0, 0, 19, 169
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\googleBooksSlice.ts", "TypeScript", 0, 0, 0, 84, 0, 0, 0, 0, 0, 9, 93
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\loginSlice.ts", "TypeScript", 0, 0, 0, 95, 0, 0, 0, 0, 0, 15, 110
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\messageSlice.ts", "TypeScript", 0, 0, 0, 30, 0, 0, 0, 0, 0, 7, 37
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\purchasedBooksSlice.ts", "TypeScript", 0, 0, 0, 44, 0, 0, 0, 0, 0, 5, 49
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\signupSlice.ts", "TypeScript", 0, 0, 0, 55, 0, 0, 0, 0, 0, 10, 65
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\slices\userProfileSlice.ts", "TypeScript", 0, 0, 0, 132, 0, 0, 0, 0, 0, 25, 157
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\src\store.ts", "TypeScript", 0, 0, 0, 16, 0, 0, 0, 0, 0, 6, 22
+"c:\Users\ivans\OneDrive\Documents\GitHub\bookshelf-client\bookshelf-client\tsconfig.json", "JSON with Comments", 26, 0, 0, 0, 0, 0, 0, 0, 0, 1, 27
+"Total", "-", 26, 937, 3552, 1517, 3412, 26, 16929, 26, 1082, 1239, 28746
