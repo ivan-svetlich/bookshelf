@@ -76,7 +76,7 @@ const SignupForm = ({signup}: SignupFormProps) => {
                 onChange={handleChange}
                 onBlur={(e) => validateInput(e as React.FocusEvent<HTMLInputElement>)} required />
             </Form.Group>
-            <Form.Group className="mb-3 captcha-container" controlId="formBasicCaptcha">
+            <Form.Group className="mb-3" controlId="formBasicCaptcha">
                 <ReCaptcha setToken={setToken} />
             </Form.Group>
             <Button variant="dark" type="submit" size="lg" id="signup-button">

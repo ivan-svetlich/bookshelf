@@ -34,7 +34,7 @@ const SignupPage = () => {
     return (
         <div>
             <SubHeader title="Sign up" icon='fas fa-id-card'></SubHeader>
-            {(signupState.loading  || isLoggedIn) && <Loading />}
+            {(signupState.loading  || isLoggedIn) && <div id="loading-container"><Loading /></div>}
             {!(signupState.loading || signupState.data || isLoggedIn) &&
             <div id="signup-page">   
                 <div id="signup-form-container">
