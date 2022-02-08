@@ -1,36 +1,49 @@
 .profile-header{
-    display: inline;
+    display: flex;
     flex-direction: column;
 }
 
-.profile-page{
+#profile-page{
     margin: 0 2em 0 2em;
 }
 
-.profile-info{
+#profile-page .profile-info{
     border-right: 1px solid rgb(236, 236, 236);
 }
 
-.right-col{
+@media screen and (max-width: 1054px) {
+    #profile-page .profile-info{
+        border-right: 0;
+    }
+}
+
+
+#profile-page .right-col{
     min-width: 75%;
 }
 
-.chart-container {
+#profile-page .chart-container {
     min-height: 40vh;
     max-height: 98vh;
 }
 
-.profile-picture{
+#profile-page .profile-picture{
     max-width: 225px;
 }
 
-.profile-settings{
+#profile-page .profile-settings{
     text-align: right;
 }
 
-.profile-button{
+#profile-page .profile-button{
     margin-top: 0.5em;
     margin-bottom: 0.2em;
+}
+
+#profile-page .buttons-row:hover td,
+#profile-page .buttons-row:focus td
+{
+    background-color: white !important;
 }
 
 .content-is-center{

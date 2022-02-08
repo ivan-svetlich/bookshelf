@@ -27,7 +27,7 @@ const ProfilePage = () => {
         <SubHeader title={profileInfo ? `${profileInfo.username}'s profile` : error ? "Error" : "Loading..."} icon='fas fa-user-alt' />
         {loading && <Loading />}
         {profileInfo && booklist &&
-            <div className="profile-page">
+            <div id="profile-page">
                 <div className="profile-settings">
                         {username === user!.username 
                         ?   <a href="/settings/info" className="settings">
@@ -43,17 +43,17 @@ const ProfilePage = () => {
                             {profileInfo.profilePicture ? <ProfilePicture source={profileInfo.profilePicture} sourceType="base64"/>
                                 : <ProfilePicture source="default" sourceType=""/>}
                             </div>
-                            <Table hover size="sm">
+                            <Table size="sm">
                             <tbody>
                                 {username === user!.username &&  
-                                <tr>         
-                                    <td className="content-is-center">
+                                <tr className="buttons-row">         
+                                    <td className="content-is-center buttons-row">
                                         <a href={`/list/${username}`}><Button variant="outline-primary" className="profile-button"><i className="fas fa-list"></i></Button></a>
                                     </td>
                                 </tr>}
                                 {username !== user!.username &&   
-                                    <tr>
-                                        <td className="content-is-center">
+                                    <tr className="buttons-row">
+                                        <td className="content-is-center buttons-row">
                                             <a href={`/list/${username}`}><Button variant="outline-primary" className="profile-button"><i className="fas fa-list"></i></Button></a>
                                             <span>  </span>
                                             {profileInfo.isFriend 
@@ -65,9 +65,6 @@ const ProfilePage = () => {
                                             </a>
                                             }
                                         </td>
-                                        {/* <td className="content-is-left">
-                                            <Button variant="outline-primary" active={!isFriend} onClick={sendFriendRequest}><i className="fa fa-user-plus"></i></Button> 
-                                        </td> */}
                                     </tr>
                                     }
                              </tbody>
