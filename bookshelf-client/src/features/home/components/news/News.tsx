@@ -17,8 +17,9 @@ const News = () => {
                     if(notification.category === "Friend request"){
                         return (
                             <div className='notif' key={`request-${notification.id}`}>
-                                <i className='far fa-user' /> 
-                                <a href={`/profile/${notification.reference}`}> {notification.reference}</a> sent you a friend request. <a href={`/friends/pending`}>See</a>
+                                <span className="notif-icon-container"><i className='far fa-user notif-icon' /></span>
+                                <a href={`/profile/${notification.reference}`}> {notification.reference}</a> sent you a friend request. 
+                                <a href={`/friends/pending`}> See</a>
                             </div>
                         )
                     }

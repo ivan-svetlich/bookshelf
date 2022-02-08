@@ -35,14 +35,16 @@ const Notifications = () => {
                 if(notification.category === "Friend request"){
                     return (
                         <NavDropdown.ItemText className="notif-item line-clamp-1" key={`request-${notification.id}`}>
-                            <a href={`/profile/${notification.reference}`}>{notification.reference}</a> sent you a friend request. <a href={`/friends/pending`}>See</a>
+                            <span className="notif-icon-container"><i className='far fa-user notif-icon' /></span>
+                            <a href={`/profile/${notification.reference}`}> {notification.reference}</a> sent you a friend request. <a href={`/friends/pending`}>See</a>
                         </NavDropdown.ItemText>
                     )
                 }
                 else if(notification.category === "New comment"){
                     return (
                         <NavDropdown.ItemText className="notif-item line-clamp-1" key={`comment-${notification.id}`}>
-                            <a href={`/profile/${notification.reference}`}>{notification.reference}</a> posted a comment on your profile.  
+                            <span className="notif-icon-container"><i className='far fa-comment notif-icon' /></span>
+                            <a href={`/profile/${notification.reference}`}> {notification.reference}</a> posted a comment on your profile.  
                             <a href={`/profile/${user?.username}#comments`}> See</a>        
                         </NavDropdown.ItemText>
                     )

@@ -125,6 +125,7 @@
 .notif .read-btn{
     float: right;
     text-align: end;
+    vertical-align: middle;
     
 }
 
@@ -148,7 +149,7 @@
     font-size: 14px;
 }
 
-.loading-container{
+.notif .loading-container{
     width: 100%;
     text-align: center;
 }

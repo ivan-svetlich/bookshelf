@@ -19,7 +19,7 @@
     transform: translateX(0%);
 } 
 
-#news .notif-icon-container{
+.notif-icon-container{
     display: inline-block;
     min-width: 14px;
 }
