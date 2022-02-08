@@ -86,7 +86,7 @@ const ProfilePicturePage = () => {
     return (
         <div className="profile-picture-page">
             <SubHeader title="Profile picture" childComp={() => SettingsNav('picture')} icon='fas fa-user-edit'></SubHeader>
-            {loading && <Loading />}
+            {(loading || profileState.loading) && <Loading />}
             {error && "Error"}
             {! loading && 
             <div className="profile-picture-wrapper">
@@ -94,7 +94,6 @@ const ProfilePicturePage = () => {
                     {picture && <ProfilePicture source={picture} sourceType="url"/>}
                     {!picture && !profileState.loading && user && user.profilePicture && 
                     <ProfilePicture source={user.profilePicture} sourceType="base64"/>}
-                    {profileState.loading && <Loading />}
                 </div>
                 <div className="picture-form-container">
                     <ErrorAlert error={fileError.type} visible={fileError.visible} />
