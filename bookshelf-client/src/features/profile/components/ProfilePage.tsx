@@ -59,7 +59,10 @@ const ProfilePage = () => {
                                             {profileInfo.isFriend 
                                             ? <Button variant="primary" disabled={true} className="profile-button"><i className="fas fa-user-check"></i></Button>
                                             : profileInfo.friendRequestSent
-                                            ? <Button variant="secondary" title="Pending request" className="profile-button"><i className="fas fa-user-clock"></i></Button>
+                                            ? <a href={`/friends/pending`}>
+                                                <Button variant="secondary" title="Pending request" className="profile-button"><i className="fas fa-user-clock"></i></Button>
+                                            </a>
+                                                
                                             : <a href={`/friends/add/?q=${username}`}>
                                                 <Button variant="outline-primary" className="profile-button"><i className="fas fa-user-plus"></i></Button>
                                             </a>
