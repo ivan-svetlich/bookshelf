@@ -76,7 +76,7 @@ const ListPage = () => {
                 {user?.username === username &&
                 <div className='row'>
                     <div id="download-btn-container">
-                    {fileLoading && <Loading />}
+                    {fileLoading && <div className='loading-container'><Loading /></div>}
                     <Button onClick={handleShow} variant="outline-dark" size="sm" id="download-btn" disabled={btnDisabled}>
                         <i className='fas fa-download'/> Download
                     </Button>

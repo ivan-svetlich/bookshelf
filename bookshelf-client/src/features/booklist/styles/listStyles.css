@@ -41,6 +41,10 @@
     justify-content: center;
 }
 
+#list-page .loading-container{
+    margin-right: 0.5em;
+}
+
 #file-type-div{
     display: inline;
     width: 100%;
