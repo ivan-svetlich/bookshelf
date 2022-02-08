@@ -15,9 +15,7 @@ const SubHeader = ({title, childComp, icon}: SubHeaderProps) => {
     
     return (
         <div className="sub-header">
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-                <Container><div className="title"><i className={icon}></i>{` ${title}`}</div></Container>
-            </Navbar>
+            <div className="sub-title-container"><span className='sub-title'><i className={icon}></i>{` ${title}`}</span></div>
             <div className="child-container">
                 {childComp ? 
                     childComp({}) : ''
