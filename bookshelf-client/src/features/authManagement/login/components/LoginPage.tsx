@@ -43,8 +43,8 @@ const LoginPage = () => {
     return (
         <div>
             <SubHeader title="Login" icon='fas fa-sign-in-alt'></SubHeader>
+            {(loading || loginState.isLoggedIn) && <div id="loading-container"><Loading /></div>}
             <div id="login-page">
-                {(loading || loginState.isLoggedIn) && <div id="loading-container"><Loading /></div>}
                 {!(loading || loginState.isLoggedIn) &&             
                 <div id="login-form-container">
                     <LoginForm /> 
