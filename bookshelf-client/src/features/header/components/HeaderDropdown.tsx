@@ -13,7 +13,7 @@ const HeaderDropdown = () => {
 
     return(
         <NavDropdown title={user?.isAdmin ? <><i className="fas fa-user-lock" title="admin"/> {user!.username}</> : <>{user!.username}</>} 
-            id="collasible-nav-dropdown" align="end">
+            id="collasible-nav-dropdown" align="end" className="user-dropdown">
             <NavDropdown.Item href={`/profile/${user!.username}`} className="dropdown-item">Profile</NavDropdown.Item>
             <NavDropdown.Item href={`/friends/list/`} className="dropdown-item">Friends</NavDropdown.Item>
             <NavDropdown.Item href={`/list/${user!.username}`} className="dropdown-item">My List</NavDropdown.Item>

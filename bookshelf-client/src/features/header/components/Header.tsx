@@ -39,7 +39,7 @@ const Header = () => {
                         <span className="animated-underline">Search books</span>
                     </Nav.Link>
                 </Nav>
-                <Nav>
+                <Nav className="right-nav">
                     
                     {user ? <>
                         <Nav.Link href="/chat" title="Chat"><i className='fas fa-comments' /></Nav.Link>

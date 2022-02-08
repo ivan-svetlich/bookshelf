@@ -106,12 +106,39 @@
 }
 
 .notif .dropdown-menu{
-    width:max-content;
+    width: max-content;
+    max-width: 75vw !important;
+    
 }
 
 .notif{
     border-right: 1px dotted rgb(248, 249, 250);
     border-left: 1px dotted rgb(248, 249, 250);
+}
+
+@media screen and (max-width: 1000px) {
+    .right-nav{
+        display: flexbox;
+        flex-direction: row;
+        justify-content:space-evenly;
+        max-width: 100%;
+    }
+    .notif{
+        border-right: 0;
+        border-left: 0;
+    }
+    .notif .dropdown-menu{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 25%);
+    }
+    .user-dropdown .dropdown-menu{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 15%);
+    }
 }
 
 .notif .notif-number{

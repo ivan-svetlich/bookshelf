@@ -34,7 +34,7 @@ const Notifications = () => {
             notificationState.data.map(notification => {
                 if(notification.category === "Friend request"){
                     return (
-                        <NavDropdown.ItemText className="notif-item line-clamp-1" key={`request-${notification.id}`}>
+                        <NavDropdown.ItemText className="notif-item" key={`request-${notification.id}`}>
                             <span className="notif-icon-container"><i className='far fa-user notif-icon' /></span>
                             <a href={`/profile/${notification.reference}`}> {notification.reference}</a> sent you a friend request. <a href={`/friends/pending`}>See</a>
                         </NavDropdown.ItemText>
@@ -42,7 +42,7 @@ const Notifications = () => {
                 }
                 else if(notification.category === "New comment"){
                     return (
-                        <NavDropdown.ItemText className="notif-item line-clamp-1" key={`comment-${notification.id}`}>
+                        <NavDropdown.ItemText className="notif-item" key={`comment-${notification.id}`}>
                             <span className="notif-icon-container"><i className='far fa-comment notif-icon' /></span>
                             <a href={`/profile/${notification.reference}`}> {notification.reference}</a> posted a comment on your profile.  
                             <a href={`/profile/${user?.username}#comments`}> See</a>        
