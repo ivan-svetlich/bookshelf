@@ -16,7 +16,7 @@ const News = () => {
                 ? notificationState.data.map(notification => {
                     if(notification.category === "Friend request"){
                         return (
-                            <div className='request' key={`request-${notification.id}`}>
+                            <div className='notif' key={`request-${notification.id}`}>
                                 <i className='far fa-user' /> 
                                 <a href={`/profile/${notification.reference}`}> {notification.reference}</a> sent you a friend request. <a href={`/friends/pending`}>See</a>
                             </div>
@@ -24,8 +24,8 @@ const News = () => {
                     }
                     else if(notification.category === "New comment"){
                         return (
-                            <div className='request' key={`comment-${notification.id}`}>
-                                <span className="news-icon"><i className='far fa-comment' /></span>
+                            <div className='notif' key={`comment-${notification.id}`}>
+                                <span className="notif-icon-container"><i className='far fa-comment notif-icon' /></span>
                                 <a href={`/profile/${notification.reference}`}> {notification.reference}</a> posted a comment on your profile.  
                                 <Link to={{pathname: `/profile/${user?.username}`, hash: '#comments'}}> See</Link >                                    
                             </div>
@@ -34,7 +34,7 @@ const News = () => {
                     else return ''
                 }
                 )
-                : <div className='request'>No new notifications</div>}
+                : <div className='notif'>No new notifications</div>}
                 </div>
             }
         </div>
