@@ -49,14 +49,15 @@
 
         #card-links {
             display: flex;
-            justify-content: left;
+            justify-content: center;
             align-items: center;
             list-style: none; 
             padding: 0;
             vertical-align: middle;
+            width: 100%;
+            margin: 0;
         }
             #card-links a {
-                margin: 0px 10px 0px 0px;
                 word-wrap: normal;
                 display: inline-block;
             }
@@ -105,3 +106,48 @@
     }
 
 
+@media screen and (max-width: 800px) {
+    #item-page .item-image{
+        width: 100% !important;
+        align-self: center !important;
+        margin: auto;
+    }
+    #item-page .card-title,
+    #sitem-page .card-title h2{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+    }
+    #item-page .line-clamp-1{
+        overflow: visible;
+        display:-webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-line-clamp: 1;
+    }
+    #item-page #item-card{
+        margin: 0;
+        flex-direction: column;
+    }
+    #item-page .item-card{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    #item-page .description{
+        margin: 1em 0.5em 1em 0.5em;
+    }
+    #item-page #payment-form,
+    #item-page #card-links{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #item-page .admin-btn{
+        padding-top: 1em;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+}

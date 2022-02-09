@@ -97,9 +97,15 @@ const ItemPage = () => {
             <div className="card flex-row flex-wrap item-card">
                 <div className="card-header border-0 item-image" title={data.title}>
                     <img src={data.thumbnail} alt={data.title} />
+                    <ul id="card-links">
+                            {getBookEntryById(data.id) ? 
+                            <li><button className="btn btn-link shadow-none" onClick={handleShow}>Edit status</button></li>
+                            : <li><button className="btn btn-link shadow-none" onClick={handleShow}>Add to list</button></li>
+                            }   
+                        </ul>
                 </div>
                 <div className="item-info">
-                        <div className="line-clamp-1" title={data.title}><h2>{data.title}</h2></div>       
+                        <div className="card-title" title={data.title}><h2>{data.title}</h2></div>       
                         <div className="line-clamp-1" title={data.authors}><h5><b>Author(s): {data.authors}</b></h5></div>
                         <div className="line-clamp-1" title={data.publisher}><p>Publisher: {data.publisher}</p></div>
                         
@@ -107,13 +113,7 @@ const ItemPage = () => {
                           isLoggedIn ? 
                             <BuyItemButton id={product.id.toString()} />
                           : <Button variant="primary" onClick={() => handleReddirect()}>Log In to buy!</Button>
-                        : <span className="not-available">Not available in Bookshelf Store</span>}
-                          <ul id="card-links">
-                            {getBookEntryById(data.id) ? 
-                            <li><button className="btn btn-link shadow-none" onClick={handleShow}>Edit status</button></li>
-                            : <li><button className="btn btn-link shadow-none" onClick={handleShow}>Add to list</button></li>
-                            }   
-                        </ul>
+                        : <span className="not-available">Not available in Bookshelf Store</span>}                   
                 </div>
                 {user?.isAdmin &&
                 <div className="admin-btn">
