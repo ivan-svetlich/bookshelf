@@ -123,9 +123,23 @@
         justify-content:space-evenly;
         max-width: 100%;
     }
+    .left-nav{
+        display: flexbox;
+        flex-direction: row;
+        justify-content:space-between;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .left-nav .header-link{
+        margin: 0 !important;
+    }
     .notif{
         border-right: 0;
         border-left: 0;
+    }
+    .navbar .border-right{
+        border-right: 0;  
     }
     .notif .dropdown-menu{
         position: absolute;

@@ -25,7 +25,7 @@ const Header = () => {
                 </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="me-auto">
+                <Nav className="me-auto left-nav">
                     <Nav.Link href={user ? `/my_purchases` : '/login'} className='header-link'>
                         <span className='icon-container'><i className="fas fa-shopping-cart" /></span>
                         <span className="animated-underline">My purchases</span>
