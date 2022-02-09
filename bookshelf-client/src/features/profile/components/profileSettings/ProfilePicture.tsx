@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useAppDispatch, useAppSelector } from "../../../../store/hooks/redux";
-import { LoginState } from "../../../../store/slices/loginSlice";
+import { LoginState, updateUserInfo } from "../../../../store/slices/loginSlice";
 import React from 'react';
 import ErrorAlert from './ErrorAlert';
 import Loading from '../../../loading/Loading';
@@ -75,6 +75,7 @@ const ProfilePicturePage = () => {
 
     useEffect(() => {
         if(profileState.data) {
+            dispatch(updateUserInfo(profileState.data));
             dispatch(setMessage({content: 'Profile picture updated successfuly', variant: 'Success'}));
         }
         else if(profileState.error) {

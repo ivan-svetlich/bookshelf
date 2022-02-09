@@ -4,7 +4,7 @@ import Button from "react-bootstrap/esm/Button";
 import Form from "react-bootstrap/esm/Form";
 import { useAppDispatch, useAppSelector } from "../../../../store/hooks/redux";
 import { UpdateProfileArgs } from "../../../../utils/api/profiles";
-import { LoginState } from "../../../../store/slices/loginSlice";
+import { LoginState, updateUserInfo } from "../../../../store/slices/loginSlice";
 import SubHeader from '../../../header/components/SubHeader';
 import { useUpdateProfileInfo } from '../../hooks/useUpdateProfileInfo';
 import { setMessage } from '../../../../store/slices/messageSlice';
@@ -41,6 +41,7 @@ const ProfileInfoPage = () => {
 
     useEffect(() => {
         if(profileState.profileInfo) {
+            dispatch(updateUserInfo(profileState.profileInfo));
             dispatch(setMessage({content: 'Profile info updated successfuly', variant: 'Success'}));
         }
         else if(profileState.error) {

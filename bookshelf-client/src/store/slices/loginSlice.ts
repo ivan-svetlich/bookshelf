@@ -109,4 +109,6 @@ export function LOGOUT(message?: Message) {
   }
 }
 
+export const {updateUserInfo} = loginSlice.actions;
+
 export default loginSlice.reducer;
