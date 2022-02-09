@@ -35,10 +35,10 @@ const ItemCard = ({item}: ItemProps) => {
                 <img src={item.thumbnail} alt={item.title} />
             </div>
             <div className="item-info">
-                <div className="line-clamp-1" title={item.title}><a href={`/book/${item.id}`}><h2>{item.title}</h2></a></div>       
+                <div className="line-clamp-1 card-title" title={item.title}><h2><a href={`/book/${item.id}`}>{item.title}</a></h2></div>       
                 <div className="line-clamp-1" title={item.authors}><h5><b>Author(s): {item.authors}</b></h5></div>
                 <div className="line-clamp-1" title={item.publisher}><p>Publisher: {item.publisher}</p></div>
-                <ul id="card-links">
+                <ul className="card-links">
                     <li><button className="btn btn-link shadow-none"><a href={`/book/${item.id}`}>Details</a></button></li>
                     {getBookEntryById(item.id) ? 
                     <li><button className="btn btn-link shadow-none" onClick={handleShow}>Edit status</button></li>
