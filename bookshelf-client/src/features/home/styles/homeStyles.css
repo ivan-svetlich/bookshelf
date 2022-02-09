@@ -50,6 +50,14 @@
         padding-left: 0;
         padding-right: 0;
     }
+    #home-page #my-stats{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2em;
+        padding-left: 0;
+        padding-right: 0;
+    }
     #home-page #news{
         width: 100%;
         margin-left: 0;
