@@ -53,8 +53,7 @@ async function updateProfile(formData: FormData | undefined, dispatch: React.Dis
     try {
       const res = await profiles.updateProfilePicture(formData);
       const profilePicture = profileResponseToEntity(res.data);
-      //appDispatch(setMessage({content: 'Profile Picture updated successfuly', variant: 'Success'}));
-
+      
       dispatch({ type: 'SUCCESS', payload: profilePicture });
     }
     catch (error: any) {
