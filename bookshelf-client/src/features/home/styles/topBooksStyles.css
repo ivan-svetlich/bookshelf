@@ -3,14 +3,16 @@
     margin: 0 1em 0em 1em;
 }
 
+#top-books .item-card{
+    margin-bottom: 0.5em;
+}
+
 #top-books .item-image{
     margin-top: 0.2em;
     flex: 0 1 60px;
     background-color: inherit;
 }
-#top-books .item-card{
-    margin-bottom: 0.5em;
-}
+
 #top-books .item-card:hover,
 #top-books .item-card:focus{
     background-color: rgb(245, 249, 253);
