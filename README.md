@@ -70,7 +70,7 @@ Books cataloging app where users can log their readings, interact with other use
 1. Set configuration paramaters in **appsettings.json**
 2. Launch project with IIS Express or run as a console application
 ### Bookshelf Client
-1. Run npm install
+1. Run ```npm install```
 2. Set configuration paramaters in **appConfig.js**
 3. Run ```npm start```
 
