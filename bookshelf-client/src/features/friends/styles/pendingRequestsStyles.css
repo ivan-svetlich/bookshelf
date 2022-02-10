@@ -10,58 +10,76 @@
 }
 
 /* Component: request card */
-#requests-page .request-card{
+#requests-page .friend-card{
     width: 60%;
-
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 0.5em;
 }
-    #requests-page .request-image{
-        margin-top: 0.2em;
-        flex: 0 1 131.5px;
+
+#requests-page .friend-card:hover,
+#requests-page .friend-card:focus{
+    background-color: rgb(245, 249, 253);
+    border: 1px solid rgba(10, 98, 211, 0.5);
+}
+
+#requests-page .friend-image-container{
+    margin-top: 0.2em;
+    flex: 0 1 90px;
+    background-color: inherit;
+}
+
+#requests-page .friend-image{
+    max-width: 90px;
+}
+
+#requests-page .request-info{
+    flex: 1 1;
+    padding-top: 1em;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    height: inherit;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#requests-page .line-clamp-1{
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+#requests-page .request-links ul{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    list-style: none; 
+    padding: 0;
+}
+
+#requests-page .request-links li{
+    display: flex;
+    justify-content:space-around;
+    text-decoration: none;
+}
+
+#requests-page .request-links button{
+    margin: 0 0.5em 0 0.5em;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 586px) {
+    #requests-page .friend-card{
+        width: 90%;
+        flex-direction: column !important;
+        justify-content: center;
     }
-        #requests-page .request-picture{
-            
-            max-width: 90px;
-        }
-     #requests-page .request-info{
-        flex: 1 1 auto;
-        padding-top: 0.5em;
-        text-align: left;
-        width: auto;
-        height: inherit;
-        display: flex;
-        flex-flow: column;
+    #requests-page .request-info{
+        text-align: center;
     }
+    #requests-page .request-links ul{
+        justify-content: center;
 
-        #requests-page .line-clamp-1{
-            overflow: hidden;
-            display:-webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 1;
-        }
-
-        #requests-page .request-links {
-            display: flex;
-            flex: 1 1 auto;
-            width: auto;
-            height: auto;
-            justify-content:flex-end;
-            align-items: flex-end;
-            margin-right: 1em;
-        }
-
-        #requests-page ul{
-            list-style: none;
-            
-        }
-
-        #requests-page button{
-            text-decoration: none;
-        }
-        #requests-page ul > li {
-            display: inline-block;
-            /* You can also add some margins here to make it look prettier */
-            zoom:1;
-            *display:inline;
-            /* this fix is needed for IE7- */
-            margin-right: 1em;
-        }
+    }
+}

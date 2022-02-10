@@ -28,38 +28,75 @@
 }
 
 
-/* Component: user card */
-.user-card{
+#add-friend-page .user-card{
     width: 60%;
-    align-items: flex-start;
-
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 0.5em;
 }
-    .user-image{
-        padding-top: 0.5em;
-        width: 100px;
-        display: flex;
-        min-height: 150px;
-        justify-content: center;
-        background-color: inherit;
-        align-items: flex-start;
-    }
-        .user-picture{
-            max-width: 90px;
-        }
-    .user-info{
-        padding-top: 0.5em;
-        text-align: left;
-        width: auto;
-        flex: 1;
-        padding-left: 0.5em;
-    }
 
-        .line-clamp-1{
-            overflow: hidden;
-            display:-webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 1;
-        }
-        .send-button{
-            margin: 0 0.5em 0.5em 0 
-        }
+#add-friend-page .user-card:hover,
+#add-friend-page .user-card:focus{
+    background-color: rgb(245, 249, 253);
+    border: 1px solid rgba(10, 98, 211, 0.5);
+}
+
+#add-friend-page .user-image-container{
+    margin-top: 0.2em;
+    flex: 0 1 90px;
+    background-color: inherit;
+}
+
+#add-friend-page .user-image{
+    max-width: 90px;
+}
+
+#add-friend-page .user-info{
+    flex: 1 1;
+    padding-top: 1em;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    height: inherit;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#add-friend-page .line-clamp-1{
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+#add-friend-page .send-button-container{
+    display: flex;
+    flex: 1 1 auto;
+    width: auto;
+    justify-content:flex-end;
+    align-items: flex-end;
+    margin: 0.5em 1em 1em 1em
+}
+
+#add-friend-page .send-button{
+    width: 140px;
+    max-height: 38px;
+    background-color: rgba(10, 98, 211, 0.5) !important;
+    border: 1px solid grey;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 586px) {
+    #add-friend-page .user-card{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #add-friend-page .user-info{
+        text-align: center;
+    }
+    #add-friend-page .send-button-container{
+        justify-content: center;
+
+    }
+}

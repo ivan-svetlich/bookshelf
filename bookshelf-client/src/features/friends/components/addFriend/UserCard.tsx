@@ -17,17 +17,17 @@ const FriendCard = ({user, friendRequestSent, setUpdate}: FriendCardProps) => {
 
     return (
         <div className="card flex-row flex-wrap user-card">
-            <div className="card-header border-0 user-image">
+            <div className="card-header border-0 user-image-container">
                 <img src={user.profilePicture ? 
                     `data:image/jpg;base64,${user.profilePicture}` 
-                    : '/default_profile_picture.png'} alt={user.username} className="user-picture"/>
+                    : '/default_profile_picture.png'} alt={user.username} className="user-image"/>
             </div>
             <div className="user-info">     
                 <div className="line-clamp-1"><a href={`/profile/${user.username}`}><h5><b>{user.username}</b></h5></a></div>
                 <div className="line-clamp-1">Gender: {user.gender}</div>
                 <div className="line-clamp-1">Birthday: {user.birthday ? user.birthday.toString().split('T')[0] : '-/-/-'}</div>
                 <div className="line-clamp-1">Location: {user.location}</div>
-                <div className="remove-link line-clamp-1">
+                <div className="send-button-container line-clamp-1">
                     <Button variant="dark" className="send-button" onClick={handleShow} 
                         disabled={friendRequestSent ? true : false}>Send request</Button>
                 </div> 

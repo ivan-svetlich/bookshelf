@@ -23,11 +23,11 @@ const RequestCard = ({friend, setUpdate}: FriendCardProps) => {
         setShow(true);
     }
     return (
-        <div className="card flex-row flex-wrap request-card">
-            <div className="card-header border-0 friend-image">
+        <div className="card flex-row flex-wrap friend-card">
+            <div className="card-header border-0 friend-image-container">
                 <img src={friend.profilePicture ? 
                     `data:image/jpg;base64,${friend.profilePicture}` 
-                    : '/default_profile_picture.png'} alt={friend.username} className="friend-picture"/>
+                    : '/default_profile_picture.png'} alt={friend.username} className="friend-image"/>
             </div>
             <div className="request-info">     
                 <div className=""><a href={`/profile/${friend.username}`}><h5><b>{friend.username}</b></h5></a></div>
