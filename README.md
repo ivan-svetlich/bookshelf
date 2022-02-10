@@ -72,5 +72,5 @@ Books cataloging app where users can log their readings, interact with other use
 ### Bookshelf Client
 1. Run npm install
 2. Set configuration paramaters in **appConfig.js**
-3. Run npm start
+3. Run ```npm start```
 
