@@ -1,4 +1,4 @@
-# Bookshelf - Books cataloging & Bookstore app
+# Bookshelf - Books Cataloging & Bookstore App
 
 ## Table of contents
 * [General Info](#general-info)
