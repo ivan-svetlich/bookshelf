@@ -4,6 +4,7 @@
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Main Features](#main-features)
+* [Screenshots](https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/README.md)
 * [Setup](#setup)
 
 ## General Info
