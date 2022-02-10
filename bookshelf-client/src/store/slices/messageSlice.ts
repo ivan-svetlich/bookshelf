@@ -1,21 +1,21 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-type MessageTypes = 
-  'Primary' | 
-  'Secondary'|
-  'Success' |
-  'Danger'|
-  'Warning'|
-  'Info' |
-  'Light' |
-  'Dark';
+type MessageTypes =
+  | "Primary"
+  | "Secondary"
+  | "Success"
+  | "Danger"
+  | "Warning"
+  | "Info"
+  | "Light"
+  | "Dark";
 
 export interface Message {
-  content: string |null,
-  variant: MessageTypes | null
+  content: string | null;
+  variant: MessageTypes | null;
 }
 
-const initialState: Message = {content: null, variant: null} ;
+const initialState: Message = { content: null, variant: null };
 
 const messageSlice = createSlice({
   name: "messages",
@@ -32,5 +32,5 @@ const messageSlice = createSlice({
 
 const { reducer, actions } = messageSlice;
 
-export const { setMessage, clearMessage } = actions
+export const { setMessage, clearMessage } = actions;
 export default reducer;

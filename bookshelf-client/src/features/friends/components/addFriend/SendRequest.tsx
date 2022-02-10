@@ -7,54 +7,82 @@ import { setMessage } from "../../../../store/slices/messageSlice";
 import Loading from "../../../loading/Loading";
 
 type SendRequestProps = {
-    show: boolean,
-    handleClose: React.MouseEventHandler<HTMLButtonElement>,
-    username: string,
-    setUpdate: React.Dispatch<React.SetStateAction<boolean>>
-}
+  show: boolean;
+  handleClose: React.MouseEventHandler<HTMLButtonElement>;
+  username: string;
+  setUpdate: React.Dispatch<React.SetStateAction<boolean>>;
+};
 
-const SendRequest = ({show, handleClose, username, setUpdate}: SendRequestProps) => {
-    let [requestState, sendFriendRequest] = useSendRequest();
-    let dispatch = useAppDispatch();
+const SendRequest = ({
+  show,
+  handleClose,
+  username,
+  setUpdate,
+}: SendRequestProps) => {
+  let [requestState, sendFriendRequest] = useSendRequest();
+  let dispatch = useAppDispatch();
 
-    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-        sendFriendRequest(username);
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    sendFriendRequest(username);
+  };
+
+  useEffect(() => {
+    if (requestState.success) {
+      setUpdate(true);
+      dispatch(
+        setMessage({
+          content: `Friend request sent to ${username}`,
+          variant: "Success",
+        })
+      );
+      (handleClose as Function)();
+    } else if (requestState.error) {
+      dispatch(setMessage({ content: requestState.error, variant: "Danger" }));
     }
+  }, [
+    dispatch,
+    handleClose,
+    requestState.error,
+    requestState.success,
+    setUpdate,
+    username,
+  ]);
 
-    useEffect(() => {
-      if(requestState.success) {
-        setUpdate(true);
-        dispatch(setMessage({content: `Friend request sent to ${username}`, variant: 'Success'}));
-        (handleClose as Function)();
-      }
-      else if(requestState.error) {
-        dispatch(setMessage({content: requestState.error, variant: 'Danger'}));
-      }
-    }, [dispatch, handleClose, requestState.error, requestState.success, setUpdate, username])
-
-    return (
-      <Modal show={show} onHide={handleClose} data>
-        <Modal.Header closeButton>
-          <Modal.Title>Remove friend</Modal.Title>
-        </Modal.Header>
-        <form name="add_book" onSubmit={handleSubmit}>
-          <Modal.Body>
-            {requestState.loading && <div className="content-is-centered"><Loading /></div>}
-            {!requestState.loading && `Do you want to send a friend request to ${username}?`}
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-            <Button type="submit" variant="primary" 
-              disabled={(requestState.loading || requestState.success || !!requestState.error)}>
-              Send
-            </Button>
-          </Modal.Footer>
-        </form>
-      </Modal>
-    );
+  return (
+    <Modal show={show} onHide={handleClose} data>
+      <Modal.Header closeButton>
+        <Modal.Title>Remove friend</Modal.Title>
+      </Modal.Header>
+      <form name="add_book" onSubmit={handleSubmit}>
+        <Modal.Body>
+          {requestState.loading && (
+            <div className="content-is-centered">
+              <Loading />
+            </div>
+          )}
+          {!requestState.loading &&
+            `Do you want to send a friend request to ${username}?`}
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button
+            type="submit"
+            variant="primary"
+            disabled={
+              requestState.loading ||
+              requestState.success ||
+              !!requestState.error
+            }
+          >
+            Send
+          </Button>
+        </Modal.Footer>
+      </form>
+    </Modal>
+  );
 };
 
 export default SendRequest;

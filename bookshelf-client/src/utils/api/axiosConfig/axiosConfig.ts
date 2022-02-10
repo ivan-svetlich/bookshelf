@@ -9,8 +9,13 @@ axiosInstance.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error.response.status === 401) {
-      store.dispatch(LOGOUT()); 
-      store.dispatch(setMessage({content: "Authentication token expired. Please log in to continue", variant: "Warning"}))
+      store.dispatch(LOGOUT());
+      store.dispatch(
+        setMessage({
+          content: "Authentication token expired. Please log in to continue",
+          variant: "Warning",
+        })
+      );
     }
 
     return Promise.reject(error);
@@ -18,4 +23,3 @@ axiosInstance.interceptors.response.use(
 );
 
 export default axiosInstance;
-

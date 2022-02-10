@@ -9,18 +9,27 @@ const getResource = (resourceUrl: string) => {
 };
 
 export type QueryArgs = {
-    searchTerm: string,
-    field: string,
-    filter: string,
-    startIndex: number
-}
+  searchTerm: string;
+  field: string;
+  filter: string;
+  startIndex: number;
+};
 const googleBooksService = {
-  searchBook: ({searchTerm, field, filter='partial', startIndex=0}: QueryArgs) => 
+  searchBook: ({
+    searchTerm,
+    field,
+    filter = "partial",
+    startIndex = 0,
+  }: QueryArgs) =>
     getResource(
-      `${BASE_URL}/volumes?q=${encodeURIComponent(field + ':' + searchTerm)
-        .replace(/%20/g, "+")}&filter=${encodeURIComponent(filter)
-        .replace(/%20/g, "+")}&maxResults=${MAX_RESULTS}&startIndex=${startIndex}`),
-    getBookById: (id: string) => getResource(`${BASE_URL}/volumes/${id}`),
+      `${BASE_URL}/volumes?q=${encodeURIComponent(
+        field + ":" + searchTerm
+      ).replace(/%20/g, "+")}&filter=${encodeURIComponent(filter).replace(
+        /%20/g,
+        "+"
+      )}&maxResults=${MAX_RESULTS}&startIndex=${startIndex}`
+    ),
+  getBookById: (id: string) => getResource(`${BASE_URL}/volumes/${id}`),
 };
 
 export default googleBooksService;

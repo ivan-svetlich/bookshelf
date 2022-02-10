@@ -10,42 +10,52 @@ import Loading from "../../../loading/Loading";
 import { setMessage } from "../../../../store/slices/messageSlice";
 
 const SignupPage = () => {
-    const isLoggedIn: LoginState['isLoggedIn'] = useAppSelector(state => state.login.isLoggedIn);
-    const navigate = useNavigate();
-    const dispatch = useAppDispatch();
-    const [signupState, signup] = useSignup();
+  const isLoggedIn: LoginState["isLoggedIn"] = useAppSelector(
+    (state) => state.login.isLoggedIn
+  );
+  const navigate = useNavigate();
+  const dispatch = useAppDispatch();
+  const [signupState, signup] = useSignup();
 
+  useEffect(() => {
+    if (isLoggedIn) {
+      navigate(-1);
+    }
+  }, [isLoggedIn, navigate]);
 
-    useEffect(() => {
-        if(isLoggedIn){ 
-            navigate(-1);
-        }
-    },[isLoggedIn, navigate]);
+  useEffect(() => {
+    if (signupState.data) {
+      dispatch(
+        setMessage({
+          content: `A confirmation email has been sent to ${signupState.data.email}`,
+          variant: "Success",
+        })
+      );
+    }
+  });
 
-    useEffect(() => {
-        if(signupState.data) {
-            dispatch(setMessage(
-                {content: `A confirmation email has been sent to ${signupState.data.email}`, 
-                variant: "Success"})
-            )
-        }
-    })
-
-    return (
-        <div>
-            <SubHeader title="Sign up" icon='fas fa-id-card'></SubHeader>
-            {(signupState.loading  || isLoggedIn) && <div id="loading-container"><Loading /></div>}
-            {!(signupState.loading || signupState.data || isLoggedIn) &&
-            <div id="signup-page">   
-                <div id="signup-form-container">
-                    <SignupForm signup={signup} />
-                </div> 
-            </div>
-            }
-            {signupState.data && <div><a href="/login">Go to login page</a></div>}
+  return (
+    <div>
+      <SubHeader title="Sign up" icon="fas fa-id-card"></SubHeader>
+      {(signupState.loading || isLoggedIn) && (
+        <div id="loading-container">
+          <Loading />
         </div>
-    )
-}
+      )}
+      {!(signupState.loading || signupState.data || isLoggedIn) && (
+        <div id="signup-page">
+          <div id="signup-form-container">
+            <SignupForm signup={signup} />
+          </div>
+        </div>
+      )}
+      {signupState.data && (
+        <div>
+          <a href="/login">Go to login page</a>
+        </div>
+      )}
+    </div>
+  );
+};
 
 export default SignupPage;
-

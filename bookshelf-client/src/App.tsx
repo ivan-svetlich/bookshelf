@@ -1,22 +1,18 @@
-import './App.css';
-import 'font-awesome/css/font-awesome.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-notifications/lib/notifications.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Provider } from 'react-redux';
+import "./App.css";
+import "font-awesome/css/font-awesome.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "react-notifications/lib/notifications.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { persistStore } from "redux-persist";
-import { store } from './store/store';
-import Header from './features/header/components/Header';
-import Routes from './routes/Routes';
-
-
+import { store } from "./store/store";
+import Header from "./features/header/components/Header";
+import Routes from "./routes/Routes";
 
 const persistor = persistStore(store);
 
 function App() {
-  
-  
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
@@ -25,11 +21,11 @@ function App() {
             <header>
               <Header />
             </header>
-            <div className='main'>
-              <Routes/>
+            <div className="main">
+              <Routes />
             </div>
           </div>
-        </Router>  
+        </Router>
       </PersistGate>
       {/* {notification &&
           <div className="position-absolute bottom-0 end-0">
