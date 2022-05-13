@@ -4,7 +4,7 @@
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Main Features](#main-features)
-* [Screenshots](https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/README.md)
+* [Appearence](#appearence)
 * [Setup](#setup)
 
 ## General Info
@@ -64,6 +64,12 @@ Books cataloging app where users can log their readings, interact with other use
 #### Main Page
 * The main page includes global data ("Recent Updates" and "Top Books".)
 * If user is logged in, their booklist stats and notifications are displayed in the main page.
+
+## Appearence
+<p align="center">
+<img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/2.png"></img> <img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/3.png"></img> <img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/6.png"></img> <img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/10.png"></img> <img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/11.png"></img> <img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/12.png"></img> <img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/13.png"></img> <img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/19b.png"></img> <img height="150px" src="https://github.com/ivan-svetlich/bookshelf/blob/main/screenshots/images/22.png"></img>
+</p>
+<p align="center"><b>More screenshots: https://github.com/ivan-svetlich/bookshelf/tree/main/screenshots</b></p>
 
 ## Setup
 ### Bookshelf Server
