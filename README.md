@@ -8,12 +8,12 @@
 * [Setup](#setup)
 
 ## General Info
-Books cataloging app where users can log their readings, interact with other users through comments and chat service, and buy books available in the store.
+Books cataloging Web App where users can log their readings, interact with other users through comments and chat service, and buy books available in the store.
 
 *This project was made with learning purposes and is still subject to change.*
 
 ## Technologies
-### This project is created with:
+### This project was designed with:
 * C# .NET 5
 * TypeScript (version: 4.5.2)
 * React (version: 17.0.2)
